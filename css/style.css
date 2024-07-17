@@ -147,6 +147,12 @@
         display: block;
         width: 100%;
     }
+    .eset-item a.get{
+        width: 300px !important;
+        height: 70px !important;
+        line-height: 70px !important;
+        margin-top: 50px !important;
+    }
 
 }
 
