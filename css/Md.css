@@ -6,8 +6,7 @@
         padding-bottom: 40px !important;
     }
     .logo{
-        display: flex;
-        align-items: center;
+        display: flex;        align-items: center;
         justify-content: space-between;
     }
     .logo .mobile{
@@ -73,5 +72,49 @@
         font-size: 40px !important;
         font-weight: bold;
     }
+    /* customer */
+
+    .customer{
+        padding: 50px;
+    }
+    .customer-top{
+        width: 500px;
+        margin: 20px auto;
+    }
+    .customer-top h1{
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;
+        color: deeppink;
+        text-transform: capitalize;
+    }
+    .customer-top p{
+        line-height: 40px;
+        text-align: center;
+        font-size: 15px;
+        font-weight: bold;
+        color: black;
+    }
+    .customer-bottom{
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        direction: rtl;
+    }
+    .customer-bottom>a{
+        display: block;
+        text-decoration: none;
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+    .customer-bottom>a>img{
+        display: block;
+    }
+
+
 
 }

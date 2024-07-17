@@ -9,6 +9,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    min-height: 1000px;
+}
 
 .header{
     background-color: whitesmoke;
@@ -71,8 +74,6 @@
 .eset-item>a.man>img{
     display: block;
 }
-
-
 
 
 
