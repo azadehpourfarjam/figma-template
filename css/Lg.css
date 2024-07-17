@@ -1,0 +1,55 @@
+@media (min-width: 993px) and (max-width: 1200px){
+    .header{
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .header::after{
+        display: table;
+        clear: both;
+    }
+    .header .logo a img{
+        width: 200px;
+    }
+    .header .nav ul li a{
+        text-align: center;
+    }
+    .eset-item p{
+        margin-top: 50px;
+    }
+    .eset-item a.get{
+        width: 150px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 15px;
+        font-weight: bold;
+        margin-top: 50px;
+    }
+    .logo .mobile{
+        display: none;
+    }
+    .nav ul{
+        float: left;
+    }
+    .nav ul li{
+        float: left;
+    }
+    .nav ul li a{
+        padding:20px;
+    }
+    .eset{
+        padding: 50px 10px;
+        display: flex;
+    }
+    .eset-item:nth-of-type(1){
+        padding-top: 70px;
+    }
+
+    .eset>.eset-item:nth-of-type(2){
+        margin-left: 20px;
+    }
+    .eset-item>a.man>img{
+        width: 400px !important;
+    }
+}

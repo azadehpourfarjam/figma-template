@@ -1,0 +1,77 @@
+@media (max-width: 575px) {
+    .header{
+        display: block;
+        position: relative;
+        padding-top: 40px !important;
+        padding-bottom: 40px !important;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .logo .mobile{
+        display: block;
+        width: 100px;
+        height: 100px;
+        border: 2px solid lightgrey;
+        border-radius: 10px;
+        outline: none;
+        background-color: #5243C2;
+        cursor: pointer;
+    }
+    .logo .mobile span{
+        display: block;
+        width: inherit;
+        height: inherit;
+        line-height: 100px;
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+        color: #fff;
+    }
+    .header .nav{
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 100%;
+        background-color: whitesmoke;
+        box-shadow: 5px 0  50px black ;
+        display: none;
+    }
+    .nav ul{
+        list-style: none;
+        float:none;
+    }
+    .nav ul li{
+        float: none;
+    }
+    .nav ul li a{
+        width: 100%;
+        direction: ltr;
+        text-align: left;
+        padding:50px 20px;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .eset{
+        padding: 50px;
+        display: block;
+    }
+    .eset .eset-item:nth-of-type(1){
+        margin-bottom: 50px;
+    }
+    .eset-item>a.man>img{
+        display: block;
+        width: 100%;
+    }
+    .eset-item a.get{
+        width: 300px !important;
+        height: 70px !important;
+        line-height: 70px !important;
+        margin-top: 50px !important;
+        font-size: 40px !important;
+        font-weight: bold;
+    }
+
+}
